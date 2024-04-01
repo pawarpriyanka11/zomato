@@ -1,0 +1,48 @@
+body {
+    background-image: url('download.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: fade 3s ease-in-out;
+    font-size: 18px;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+header h1 {
+    font-size: 36px; /* Increase header font size */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px; /* Increase section title font size */
+}
+
+p {
+    font-size: 20px; /* Increase paragraph font size */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Add a semi-transparent black background */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
